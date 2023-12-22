@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title><?php bloginfo('name'); echo " &mdash; "; bloginfo('description'); wp_title(); ?></title>
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<?php wp_head(); ?>
+
+</head>
+
+<body>
+
+<?php get_header(); ?>
+
+<?php if ( have_posts() ) : while (have_posts() ) : the_post(); ?>
+
+<?php the_post_thumbnail('full', 'class=cover'); ?>
+
+<h1><?php the_title(); ?></h1>
+
+<?php the_content(); ?>
+
+<div><?php the_time('j.m.Y'); ?></div>
+
+<div><?php the_tags(); ?></div>
+
+<!-- post -->
+<?php endwhile; ?>
+
+<!-- post navigation -->
+<?php else: ?>
+
+<!-- no posts found -->
+<?php endif; ?>
+
+<?php get_footer(); ?>
+<!-- footer end -->
+
+<?php wp_footer(); ?>
+
+</body>
+</html>
