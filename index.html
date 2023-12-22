@@ -90,6 +90,22 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
     </style>
 
 
@@ -105,11 +121,120 @@
 
     <div class="p-5 mb-4 bg-body-tertiary rounded-3">
       <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <button class="btn btn-primary btn-lg" type="button">Example button</button>
+        <h1 class="display-5 fw-bold">Блок 1</h1>
+        <p class="col-md-8 fs-4">Описание</p>
+        <button class="btn btn-primary btn-lg" type="button">Кнопка</button>
       </div>
     </div>
+
+
+     <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Обо <span class="text-body-secondary">мне</span></h2>
+        <p class="lead">Блок 2</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+
+<div class="card">
+  <div class="card-header">
+    Отзыв
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>Отзыв</p>
+      <footer class="blockquote-footer">Источник <cite title="Source Title">Источник</cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+
+<div class="card">
+  <div class="card-header">
+    Отзыв
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>Отзыв</p>
+      <footer class="blockquote-footer">Источник <cite title="Source Title">Источник</cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+    </div>
+    <div class="carousel-item">
+
+<div class="card">
+  <div class="card-header">
+    Отзыв
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>Отзыв</p>
+      <footer class="blockquote-footer">Источник <cite title="Source Title">Источник</cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
 
 
 </div>
@@ -119,6 +244,14 @@
 
 
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">const myCarouselElement = document.querySelector('#myCarousel')
+
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 2000,
+  touch: false
+})
+
+</script>
 
 </body>
 </html>
