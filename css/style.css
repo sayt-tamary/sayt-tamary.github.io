@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto Slab', serif; line-height: 170%;
+  font-family: 'Roboto Slab', serif !important; line-height: 170% !important;
 }
 
 /*
