@@ -1,6 +1,23 @@
+@import url('font-awesome.css?v=4.0');
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../font/Awesome/fontawesome-webfont.eot?v=4.3.0');
+    src: 
+        url('../font/Awesome/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), 
+        url('../font/Awesome/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), 
+        url('../font/Awesome/fontawesome-webfont.woff?v=4.3.0') format('woff'), 
+        url('../font/Awesome/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), 
+        url('../font/Awesome/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    font-style: normal; font-weight: normal;
+}
+
+/*
+ * Base elements
+ */
 body {font-family: 'Roboto Slab', serif !important; line-height: 170% !important;}
 
-iframe {min-height: 280px;}
+iframe {min-height: 350px;}
 
 /*
  * Cover
