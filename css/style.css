@@ -87,3 +87,8 @@ iframe {min-height: 350px;}
 }
 
 .shadow-text-gold {text-shadow: #FC0 1px 0 10px;}
+
+/* Media Queris */
+@media (max-width: 1000px) {
+  .navbar-nav li {font-size: 30px}
+}
