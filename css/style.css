@@ -89,13 +89,13 @@ iframe {min-height: 350px}
 .shadow-text-gold {text-shadow: #FC0 1px 0 10px;}
 
 .card-img {
-  object-fit: cover;
-  max-height: 400px;
+  object-fit: contain;
+  height: 400px;
 }
 
 .post-img {
-  object-fit: cover;
-  max-height: 600px;
+  object-fit: contain;
+  height: 600px;
 }
 
 /* Media Queris */
