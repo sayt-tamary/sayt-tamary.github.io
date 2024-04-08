@@ -101,4 +101,5 @@ iframe {min-height: 350px}
 /* Media Queris */
 @media (max-width: 1000px) {
   .navbar-nav li {font-size: 30px}
+  .post-img {height: auto;}
 }
