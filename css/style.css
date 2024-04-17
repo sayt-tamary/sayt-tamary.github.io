@@ -93,6 +93,9 @@ iframe {min-height: 350px}
   height: 400px;
 }
 
+.card-img--con {object-fit: contain}
+.card-img--cov {object-fit: cover}
+
 .post-img {
   object-fit: contain;
   height: 600px;
